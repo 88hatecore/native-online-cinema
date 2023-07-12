@@ -5,17 +5,25 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "android:dev": "expo start -c --android",
     "ios": "expo start --ios",
+    "ios:dev": "expo start -c --ios",
     "web": "expo start --web"
   },
-  "dependencies": {
-    "expo": "~48.0.18",
-    "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-native": "0.71.8"
-  },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@types/expo": "^33.0.1",
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.4",
+    "babel-plugin-root-import": "^6.6.0",
+    "prettier": "3.0.0",
+    "typescript": "^4.8.4"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "expo": "^46.0.13",
+    "expo-status-bar": "^1.4.0",
+    "react": "^18.0.0",
+    "react-native": "^0.69.6"
+  }
 }
